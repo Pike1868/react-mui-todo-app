@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="overlay"
+  >
+    <div
+      class="modal"
+    >
+      <div
+        class="form-title-container"
+      >
+        <h3>
+          Let's  your task
+        </h3>
+        <button>
+          X
+        </button>
+      </div>
+      <form>
+        <input
+          maxlength="30"
+          name="title"
+          placeholder="Your task goes here"
+          required=""
+          value=""
+        />
+        <br />
+        <label
+          for="range"
+        >
+          Drag to select your current progress
+        </label>
+        <input
+          id="range"
+          max="100"
+          min="0"
+          name="progress"
+          required=""
+          type="range"
+          value="0"
+        />
+        <input
+          type="submit"
+        />
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

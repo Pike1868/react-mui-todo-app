@@ -1,0 +1,112 @@
+body {
+  width: 99vw;
+  height: 99vh;
+  background-color: #bacdde;
+}
+
+/*Generic Styles*/
+
+input {
+  margin: 0.8rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgb(230, 232, 236);
+  border-radius: 1rem;
+}
+
+/*Modal Styles*/
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  width: 500px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 6px 24px 0, rgba(0, 0, 0, 0.1) 0 0 0 1px;
+}
+
+.modal .form-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal .form-title-container button {
+  border: none;
+  background-color: transparent;
+}
+
+.modal .form-title-container button:active {
+  color: rgb(197, 197, 197);
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal label {
+  font-size: 1rem;
+}
+
+/*Auth*/
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.auth-container-box {
+  width: 500px;
+  padding: 1rem;
+  background-color: #031926e3;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: rgba(179, 4, 4, 0.1) 0 6px 24px, rgba(0, 0, 0, 0.5) 0 0 0 1px;
+}
+
+.auth-container-box form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 1.5rem;
+}
+.auth-container-box form h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.auth-options {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0 1rem;
+}
+
+/* User feedback login/signup */
+.user-email {
+  float: right;
+  font-size: 1rem;
+  margin: 10px;
+  color: #031926e3;
+}
+
+/* info-container for each todo */
+
+.info-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
